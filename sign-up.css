@@ -32,3 +32,15 @@ img {
     font-size: 2rem;
     opacity: 0.85;
 }
+
+p {
+    position: absolute;
+    width: inherit;
+    top: 97vh;
+    text-align: center;
+}
+
+#picture-container a {
+    text-decoration: none;
+    color: white;
+}
