@@ -14,6 +14,7 @@ body {
     background-color: var(--main-color);
     color: white;
     display: flex;
+    font-family: "Noto Sans JP", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #picture-container {
@@ -88,6 +89,7 @@ a:hover {
 
 .sign-up-info input {
     font-size: 1.2rem;
+    margin-bottom: 8px;
 }
 
 .sign-up-info label {
