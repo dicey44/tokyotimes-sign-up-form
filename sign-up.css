@@ -54,15 +54,14 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid red;
     flex-grow: 1;
 }
 
-#description {
+.description {
     padding: 26px 30px;
     text-align: left;
     font-size: 1.2rem;
-    
+    width: 80%;
 }
 
 .sign-up-info {
