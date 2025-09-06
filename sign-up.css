@@ -5,20 +5,18 @@
 }
 
 * {
-    /* box-sizing: border-box; */
     margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: var(--main-color);
     color: white;
     display: flex;
-    overflow: hidden;
 }
 
 #picture-container {
     width: var(--picture-width);
-    border: 2px solid;
     flex-shrink: 0;
 }
 
@@ -39,7 +37,7 @@ img {
     opacity: 0.85;
 }
 
-p {
+.img-credit {
     position: absolute;
     width: inherit;
     top: 97vh;
@@ -61,4 +59,31 @@ p {
     padding: 40px 20px;
     text-align: left;
     font-size: 1.2rem;
+}
+
+.sign-up-info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: flex-start;
+    width: 600px;
+    border: 2px solid red;
+}
+
+.sign-up-info h2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sign-up-info div {
+    flex: 1;
+}
+
+.sign-up-info input {
+    font-size: 1.2rem;
+}
+
+.sign-up-info label {
+    font-size: 1.1rem;
+    display: block;
 }
